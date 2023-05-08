@@ -1,0 +1,18 @@
+@charset "utf-8"
+
+body {
+	font-family: arial, sans-serif;
+	background = "imagens/fundo.png";
+}
+
+header {
+	width: 800px;
+	margin: auto;
+	box-shadow: 2px 3px 2px black;
+	margin-bottom: 10px;
+}
+
+main {
+	width: 1000px;
+	margin: auto;
+}

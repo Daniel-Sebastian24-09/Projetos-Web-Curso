@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header*/
+header {
+    background-image: url(/imagens/fundo.png);
+    height: 230px;
+    width: 100%;
+    text-align: center;
+}
+
+img#logo {
+  position: relative;
+  top: -80px;
+  right: 120px;
+}
+
+img#detalhe-topo {
+    position: relative;
+    left: 250px;
+
+}
+
+/*Navegação Header*/
+header > nav {
+    width: 567px;
+    margin: auto;
+    height: 39px;
+    background-color: rgb(160, 3, 3);
+    position: relative;
+    bottom: 50px;
+}
+
+header > nav > a {
+    text-decoration: none;   
+    color: white;
+    padding: 11px;
+    margin: 0px;
+    position: relative;
+    top: 11px;
+    box-shadow: 2px 0px 1px #69001d;
+  
+}
+
+header > nav > a:hover {
+    color: #69001d;
+}
+
+header > nav a#selecionado {
+    color: fff;
+    background-color: #de003e;
+    box-shadow: 2px 0px 1px #69001d;
+    cursor: text;
+}
+
+/*Conteúdo main Principal*/
+#principal {
+    float: left;
+    margin: 20px 0px 20px 195px;
+}
+
+main {
+    margin: auto;
+    width: 750px;
+}
+
+section#secao-1 {
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+section#secao-2{
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 3px;
+}
+
+figure > img.principal{
+    width: 250px;
+    margin-top: 5px;
+}
+
+article > a {
+    color: #de003e;
+    font-size: small;
+    margin: 3px 0px 10px 1px;
+}
+
+section > h2 {
+    width: 250px;
+    background-color: rgb(43, 59, 110);
+    color: #fff;
+    font-weight: bolder;
+    margin: 0px 0px 20px 0px;
+    padding: 4px;
+}
+
+article {
+    width: 250px;
+}
+
+article > h3 {
+    background-color: #a50d38;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 4px;
+    margin: 0px 0px 10px 0px;
+}
+
+h3.secundario {
+    color: rgb(28, 194, 194);
+    background: none;
+    font-size: small;
+    margin-left: 10px;
+}
+
+p {
+    font-size: small;
+
+}
+
+#text-img {
+    float: left;
+}
+
+article > img {
+    width: 100px;
+    float: left;
+    margin: 4px;
+}
+
+/*Barra laterral*/
+
+#barra-laterral{
+    width: 180px;
+    float: left;
+    margin: 20px 0px 20px -750px;
+}
+
+nav > h2,
+form > h2 {
+    width: 180px;
+    background-color: rgb(43, 59, 110);
+    color: #fff;
+    font-weight: bolder;
+    margin: 0px 0px 20px 0px;
+    padding: 4px;
+}
+
+nav li {
+    padding: 2px;
+    margin: 0px 0px 3px 0px;
+} 
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+li:hover {
+    background: url(imagens/marcador.png) no-repeat left;
+}
+
+li a:hover {
+    color: #6e7781;
+    margin-left: 20px;
+}
+
+#barra-laterral > nav {
+    margin: 0px 0px 20px 0px;
+}
+
+/*Cadastro de Email*/
+form {
+    width: 180px;
+    float: left;
+}
+
+label{
+    cursor: pointer;
+}
+
+#email {
+    font-size: 1em;
+    width: 180px;
+    margin: 0px 0px 5px 0px;
+}
+
+#Cadastrar {
+    padding: 6px;
+    margin: 2px 0px 0px 0xp;
+    background-color: #de003e;
+    color: #fff;
+    border: none;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(46, 46, 107);
+    padding: 10px;
+    text-align: center;
+}
